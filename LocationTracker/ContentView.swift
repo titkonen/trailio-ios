@@ -13,7 +13,7 @@ struct ContentView: View {
     private var locations: FetchedResults<Location>
     
     @State private var region = MKCoordinateRegion(
-        center: CLLocationCoordinate2D(latitude: 0.0, longitude: 0.0),
+        center: CLLocationCoordinate2D(latitude: 60.1699, longitude: 24.9384),
         span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
     
     var body: some View {
